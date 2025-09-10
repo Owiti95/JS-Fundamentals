@@ -1,6 +1,6 @@
 const arg = process.argv[2]
 const times = parseInt(arg)
-if (isNaN(times) || times <= 0) {
+if (isNaN(times)) {
   console.log('Missing number of occurrences')
 } else {
   let i = 0
